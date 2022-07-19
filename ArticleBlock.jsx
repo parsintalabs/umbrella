@@ -32,7 +32,7 @@ export default function ArticleBlock() {
                             elit.
                         </h1>
 
-                        <p className="!hidden md:block text-gray-500 mt-2 line-clamp-2 tracking-tighter">
+                        <p className="!hidden md:!block text-gray-500 mt-2 line-clamp-2 tracking-tighter">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Animi, quasi.
                         </p>
