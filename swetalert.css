@@ -1,0 +1,52 @@
+.swal-overlay {
+    @apply bg-gray-900/80;
+}
+.swal-text {
+    @apply text-gray-700 w-full px-4 py-5;
+}
+
+.swal-text:first-child {
+    @apply mt-0;
+}
+
+.swal-modal {
+    @apply bg-white border-gray-200 rounded-xl w-full max-w-lg;
+}
+
+.swal-footer {
+    @apply bg-gray-100 mt-0 border-t border-gray-200 overflow-hidden p-1;
+}
+
+.swal-button {
+    @apply rounded-md px-4 py-2 transition duration-200 shadow hover:shadow-lg;
+}
+
+.swal-button--confirm,
+.swal-button--confirm {
+    @apply bg-sky-500 hover:!bg-sky-600;
+}
+
+.swal-button--cancel {
+    @apply bg-white hover:!bg-white;
+}
+
+.swal-title {
+    @apply border-b border-gray-200 text-base flex justify-between;
+}
+.swal-icon {
+    @apply w-16 h-16;
+}
+.swal-icon--warning__body {
+    @apply h-8 w-1;
+}
+.swal-icon--warning__dot {
+    @apply h-2 w-2;
+}
+
+.swal-icon--warning {
+    @apply !border-orange-300;
+}
+.swal-icon--warning__body,
+.swal-icon--warning__dot {
+    @apply !bg-orange-300;
+}
